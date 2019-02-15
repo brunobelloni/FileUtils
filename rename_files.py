@@ -1,4 +1,5 @@
 # USAGE: python main.py 'dir'
+# Rename Files order by ID
 
 import os
 import argparse

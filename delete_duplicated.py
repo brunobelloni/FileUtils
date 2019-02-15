@@ -1,17 +1,16 @@
 # USAGE: python delete_duplicated.py 'dir'
+# Delete Duplicated Images
 
 import os
 import argparse
 import cv2
 
-
 parser = argparse.ArgumentParser()
 parser.add_argument("dir", help="dir")
 args = parser.parse_args()
-list_to_remove = []
+list_to_remove = set()
 image_list = []
 index = 0
-
 
 def is_duplicated(image, aux):
     if image.shape == aux.shape:
@@ -25,22 +24,15 @@ if args.dir:
     pasta = args.dir
     caminhos = [os.path.join(pasta, nome) for nome in os.listdir(pasta)]
     arquivos = [arq for arq in caminhos if os.path.isfile(arq)]
+    image_list = [cv2.imread(image) for image in arquivos]
+
     count = 0
-
-    arquivos.sort()
-
-    for image in arquivos:
-        image_list.append(cv2.imread(image))
-
     for image, arquivos in zip(image_list, arquivos):
-        dasdsa = 0
         for aux in image_list[index+1:]:
             if is_duplicated(image, aux):
                 count = count + 1
-                list_to_remove.append(arquivos)
-            dasdsa = dasdsa + 1
+                list_to_remove.add(arquivos)
         index = index + 1
-
 
 
 print(count, 'files to remove!')
