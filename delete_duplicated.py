@@ -26,7 +26,6 @@ if args.dir:
     arquivos = [arq for arq in caminhos if os.path.isfile(arq)]
     image_list = [cv2.imread(image) for image in arquivos]
 
-    dupes = [img for img, img_aux in enumerate(image_list) if x in a[:n]]
 
     for image, arquivos in zip(image_list, arquivos):
         for aux in image_list[index+1:]:
