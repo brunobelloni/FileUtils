@@ -1,4 +1,4 @@
-# USAGE: python main.py 'dir'
+# USAGE: python rename_files.py 'dir'
 # Rename Files order by ID
 
 import os
