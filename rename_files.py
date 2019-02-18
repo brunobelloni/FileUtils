@@ -11,9 +11,9 @@ args = parser.parse_args()
 if args.dir:
     pasta = args.dir
     caminhos = [os.path.join(pasta, nome) for nome in os.listdir(pasta)]
-    arquivos = [arq for arq in caminhos if os.path.isfile(arq)]
+    arquivos = (arq for arq in caminhos if os.path.isfile(arq))
 
-    for arquivo in arquivos:
-        name = str(arquivos.index(arquivo)) + '.png'
+    for index, arquivo in enumerate(arquivos):
+        name = "{:05}.png".format(index)
         new_name = os.path.join(os.path.dirname(arquivo), name)
         os.rename(arquivo, new_name)

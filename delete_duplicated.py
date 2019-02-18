@@ -10,7 +10,6 @@ parser.add_argument("dir", help="dir")
 args = parser.parse_args()
 list_to_remove = set()
 image_list = []
-index = 0
 
 def is_duplicated(image, aux):
     if image.shape == aux.shape:
@@ -26,12 +25,10 @@ if args.dir:
     arquivos = [arq for arq in caminhos if os.path.isfile(arq)]
     image_list = [cv2.imread(image) for image in arquivos]
 
-
-    for image, arquivos in zip(image_list, arquivos):
+    for index, (image, image_path) in enumerate(zip(image_list, arquivos)):
         for aux in image_list[index+1:]:
             if is_duplicated(image, aux):
-                list_to_remove.add(arquivos)
-        index = index + 1
+                list_to_remove.add(image_path)
 
 
 print(len(list_to_remove), 'files to remove!')
