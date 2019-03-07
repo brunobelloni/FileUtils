@@ -8,6 +8,9 @@
 #### Rename Files
   Enumerate files in a folder
 
+#### Image Slice
+  ![alt text](https://github.com/brunobelloni/FileUtils/blob/master/resources/slice_example.jpg)
+
 ## Requirements 
 
 | Package  |              Version                |
