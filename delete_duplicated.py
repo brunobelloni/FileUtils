@@ -11,6 +11,7 @@ args = parser.parse_args()
 list_to_remove = set()
 image_list = []
 
+
 def is_duplicated(image, aux):
     if image.shape == aux.shape:
         difference = cv2.subtract(image, aux)
@@ -18,6 +19,7 @@ def is_duplicated(image, aux):
         if cv2.countNonZero(b) == 0 and cv2.countNonZero(g) == 0 and cv2.countNonZero(r) == 0:
             return True
     return False
+
 
 if args.dir:
     pasta = args.dir
