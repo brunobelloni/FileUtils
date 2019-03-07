@@ -23,7 +23,7 @@ def slice(image, slice_x=2, slice_y=2):
     return image_list
 
 
-images = slice(image)
+images = slice(image, args.x, args.y)
 
 for index, image in enumerate(images):
     BASE_DIR = os.path.dirname(os.path.abspath(__file__))
