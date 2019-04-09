@@ -1,6 +1,9 @@
 # USAGE: python rename_files.py 'dir'
 # Rename Files order by ID
 
+# Shell
+# num=0; for i in *; do mv "$i" "$(printf '%04d' $num).${i#*.}"; ((num++)); done
+
 import os
 import argparse
 
