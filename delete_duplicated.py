@@ -13,12 +13,12 @@ image_list = []
 
 
 def is_duplicated(image, aux):
-    if image.shape == aux.shape:
-        difference = cv2.subtract(image, aux)
-        b, g, r = cv2.split(difference)
-        if cv2.countNonZero(b) == 0 and cv2.countNonZero(g) == 0 and cv2.countNonZero(r) == 0:
-            return True
-    return False
+    if image.shape != aux.shape:
+        return False
+    difference = cv2.subtract(image, aux)
+    b, g, r = cv2.split(difference)
+    return cv2.countNonZero(b) == 0 and cv2.countNonZero(g) == 0 and cv2.countNonZero(r) == 0
+    
 
 
 if args.dir:
