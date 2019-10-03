@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1bfdaf39-1723-478c-a1c6-b16dc6efa265" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/runner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/file_utils/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/file_utils/api.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/runner.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/FileUtils.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/FileUtils.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/delete_duplicated.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/delete_duplicated.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image_slice.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/image_slice.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rename_files.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/rename_files.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/file_utils/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/file_utils/api.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,6 +33,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\bruno.belloni\Documents\FileUtils\examples" />
       <recent name="C:\Users\bruno.belloni\Documents\FileUtils\utils" />
     </key>
   </component>
@@ -67,8 +59,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1570118929604</updated>
-      <workItem from="1570118933631" duration="1274000" />
+      <workItem from="1570118933631" duration="1585000" />
     </task>
+    <task id="LOCAL-00001" summary="api">
+      <created>1570120307758</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1570120307758</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -85,7 +85,11 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="api" />
+    <option name="LAST_COMMIT_MESSAGE" value="api" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/FileUtils$runner.coverage" NAME="runner Coverage Results" MODIFIED="1570120259807" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/FileUtils$runner.coverage" NAME="runner Coverage Results" MODIFIED="1570120540300" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

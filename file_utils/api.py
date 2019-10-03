@@ -7,13 +7,8 @@ class FileUtils:
     def __init__(self, path: str):
         self.path = path
 
-    def get_all_files_in_path(self, file_type: str = '*', recursive: bool = False):
-        files = [f for f in glob.glob(self.path + f'**/*.{file_type}', recursive=recursive)]
-
-        for f in files:
-            print(f)
-
-        return files
+    def get_all_files_in_path(self, file_type: str = '*', recursive: bool = False) -> list:
+        return [f for f in glob.glob(self.path + f'**/*.{file_type}', recursive=recursive)]
 
     def rename_all_files(self):
         pass
