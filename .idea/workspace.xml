@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1bfdaf39-1723-478c-a1c6-b16dc6efa265" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/file_utils/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/file_utils/api.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -65,7 +64,7 @@
       <option name="presentableId" value="Default" />
       <updated>1570118929604</updated>
       <workItem from="1570118933631" duration="1585000" />
-      <workItem from="1570141929844" duration="34000" />
+      <workItem from="1570141929844" duration="80000" />
     </task>
     <task id="LOCAL-00001" summary="api">
       <created>1570120307758</created>
@@ -74,7 +73,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570120307758</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="python gitignore">
+      <created>1570141980815</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1570141980815</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -95,7 +101,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="api" />
-    <option name="LAST_COMMIT_MESSAGE" value="api" />
+    <MESSAGE value="python gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="python gitignore" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/FileUtils$runner.coverage" NAME="runner Coverage Results" MODIFIED="1570120540300" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
