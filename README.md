@@ -9,7 +9,7 @@
   Enumerate files in a folder
 
 #### Image Slice
-  ![alt text](https://github.com/brunobelloni/FileUtils/blob/master/slice_example.jpg)
+  ![alt text](examples/slice_example.jpg)
 
 ## Requirements 
 
